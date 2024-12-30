@@ -85,8 +85,12 @@
 .cs_ser_int{
   margin: 0;
 }
-
-
+#block-plantilla-web-titulodelapagina h1{
+  display: none;
+}
+#block-plantilla-web-bloqueconimagen .field.field--name-field-imagen-2.field--type-image.field--label-visually_hidden img{
+  width: 100%;
+}
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
