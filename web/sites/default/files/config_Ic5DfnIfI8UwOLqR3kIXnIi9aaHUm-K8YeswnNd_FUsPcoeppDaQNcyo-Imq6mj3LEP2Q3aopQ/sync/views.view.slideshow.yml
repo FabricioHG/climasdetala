@@ -224,19 +224,24 @@ display:
         type: views_bootstrap_carousel
         options:
           grouping: {  }
-          interval: '3000'
-          keyboard: 1
-          ride: null
-          navigation: 1
-          indicators: 1
-          pause: 1
-          use_caption: 1
-          wrap: 1
+          row_class: ''
+          default_row_class: true
+          interval: 3000
+          keyboard: true
+          ride: carousel
+          navigation: true
+          indicators: true
+          pause: true
+          use_caption: true
+          caption_breakpoints: 'd-none d-md-block'
+          wrap: true
           effect: slide
+          columns: 1
+          breakpoints: md
+          display: fields
           image: field_imagen
           title: ''
           description: body
-          caption_breakpoints: 'd-none d-md-block'
       row:
         type: fields
       query:

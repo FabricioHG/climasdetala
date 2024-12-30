@@ -590,7 +590,7 @@ $settings['update_free_access'] = FALSE;
  * See https://www.drupal.org/documentation/modules/file for more information
  * about securing private files.
  */
-# $settings['file_private_path'] = '';
+ $settings['file_private_path'] = DRUPAL_ROOT . '/../private';
 
 /**
  * Temporary file path:
@@ -861,9 +861,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'PlantillaWs',
-  'username' => 'PlantillaWs',
-  'password' => 'PlantillaWs',
+  'database' => 'climasdetala.local',
+  'username' => 'climasdetala.local',
+  'password' => 'climasdetala.local',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
